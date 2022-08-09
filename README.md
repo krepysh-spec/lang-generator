@@ -7,19 +7,19 @@ This package helps you to have Laravel translation functionality in your client 
 ### Get started
  install the package via composer
  ```bash
- composer require KrepyshSpec\LangGenerator/laravel-vue-translation
+ composer require krepysh-spec/lang-generator
  ```
  In the **config/app.php** file add the service provider
  ```php
 'providers' => [
     //
-    KrepyshSpec\LangGenerator\Translation\TranslationServiceProvider::class,
+    KrepyshSpec\LangGenerator\TranslationServiceProvider::class,
     //
   ];
  ```
  Publish the package assets by running the command
  ```bash
- php artisan vendor:publish --provider="KrepyshSpec\LangGenerator\Translation\TranslationServiceProvider"
+ php artisan vendor:publish --provider="KrepyshSpec\LangGenerator\TranslationServiceProvider"
  ```
  > This will publish the **Translation.js** file in **resources/js/VueTranslation** directory  
  
