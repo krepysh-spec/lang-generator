@@ -8,7 +8,7 @@
         "laravel-i18",
         "larave-vue-lang",
         "vue-lang-generator",
-        "laravel-lang-json",
+        "laravel-lang-json"
     ],
     "license": "MIT",
     "authors": [
