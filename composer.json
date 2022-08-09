@@ -50,7 +50,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "KrepyshSpec\\LangGenerator\\TranslationServiceProvider"
+                "KrepyshSpec\\LangGenerator\\GeneratorProvider"
             ],
             "aliases": {
                 "Debugbar": "Barryvdh\\Debugbar\\Facade"
