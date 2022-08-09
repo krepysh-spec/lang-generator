@@ -1,9 +1,9 @@
 <?php
 
-namespace Tohidplus\Translation;
+namespace KrepyshSpec\LangGenerator\Translation;
 
 use Illuminate\Support\Facades\File;
-use Tohidplus\Translation\Contract\TranslationFileHelper;
+use KrepyshSpec\LangGenerator\Translation\Contract\TranslationFileHelper;
 
 class LaravelTranslationFileHelper implements TranslationFileHelper
 {

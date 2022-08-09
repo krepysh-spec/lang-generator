@@ -1,8 +1,8 @@
 <?php
 
-namespace Tohidplus\Translation;
+namespace KrepyshSpec\LangGenerator\Translation;
 
-use Tohidplus\Translation\Contract\TranslationFileHelper;
+use KrepyshSpec\LangGenerator\Translation\Contract\TranslationFileHelper;
 
 class LaravelVueTranslation
 

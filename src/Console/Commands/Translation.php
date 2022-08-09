@@ -1,12 +1,12 @@
 <?php
 
-namespace Tohidplus\Translation\Console\Commands;
+namespace KrepyshSpec\LangGenerator\Translation\Console\Commands;
 
 use ElementaryFramework\FireFS\Watcher\FileSystemWatcher;
 use Illuminate\Console\Command;
 use function MongoDB\BSON\toJSON;
-use Tohidplus\Translation\Facades\VueTranslation;
-use Tohidplus\Translation\FileWatcher\Listener;
+use KrepyshSpec\LangGenerator\Translation\Facades\VueTranslation;
+use KrepyshSpec\LangGenerator\Translation\FileWatcher\Listener;
 
 class Translation extends Command
 {

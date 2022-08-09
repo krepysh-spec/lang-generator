@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Tohidplus\Translation\Contract;
+namespace KrepyshSpec\LangGenerator\Translation\Contract;
 
 
 interface TranslationFileHelper

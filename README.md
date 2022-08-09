@@ -1,25 +1,25 @@
-[![GitHub issues](https://img.shields.io/github/issues/tohidplus/laravel-vue-translation.svg)](https://github.com/tohidplus/laravel-vue-translation/issues)
-[![GitHub stars](https://img.shields.io/github/stars/tohidplus/laravel-vue-translation.svg)](https://github.com/tohidplus/laravel-vue-translation/stargazers)
-[![Total Downloads](https://img.shields.io/packagist/dt/tohidplus/laravel-vue-translation.svg)](https://packagist.org/packages/tohidplus/laravel-vue-translation)
-[![GitHub license](https://img.shields.io/github/license/tohidplus/laravel-vue-translation.svg)](https://github.com/tohidplus/mellat/blob/master/LICENSE.txt)
+[![GitHub issues](https://img.shields.io/github/issues/KrepyshSpec\LangGenerator/laravel-vue-translation.svg)](https://github.com/KrepyshSpec\LangGenerator/laravel-vue-translation/issues)
+[![GitHub stars](https://img.shields.io/github/stars/KrepyshSpec\LangGenerator/laravel-vue-translation.svg)](https://github.com/KrepyshSpec\LangGenerator/laravel-vue-translation/stargazers)
+[![Total Downloads](https://img.shields.io/packagist/dt/KrepyshSpec\LangGenerator/laravel-vue-translation.svg)](https://packagist.org/packages/KrepyshSpec\LangGenerator/laravel-vue-translation)
+[![GitHub license](https://img.shields.io/github/license/KrepyshSpec\LangGenerator/laravel-vue-translation.svg)](https://github.com/KrepyshSpec\LangGenerator/mellat/blob/master/LICENSE.txt)
 # Laravel translation in VueJS
 This package helps you to have Laravel translation functionality in your client side applications specially in Vue js 
 ### Get started
  install the package via composer
  ```bash
- composer require tohidplus/laravel-vue-translation
+ composer require KrepyshSpec\LangGenerator/laravel-vue-translation
  ```
  In the **config/app.php** file add the service provider
  ```php
 'providers' => [
     //
-    Tohidplus\Translation\TranslationServiceProvider::class,
+    KrepyshSpec\LangGenerator\Translation\TranslationServiceProvider::class,
     //
   ];
  ```
  Publish the package assets by running the command
  ```bash
- php artisan vendor:publish --provider="Tohidplus\Translation\TranslationServiceProvider"
+ php artisan vendor:publish --provider="KrepyshSpec\LangGenerator\Translation\TranslationServiceProvider"
  ```
  > This will publish the **Translation.js** file in **resources/js/VueTranslation** directory  
  

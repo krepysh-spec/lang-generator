@@ -1,11 +1,11 @@
 <?php
 
-namespace Tohidplus\Translation;
+namespace KrepyshSpec\LangGenerator\Translation;
 
 use ElementaryFramework\FireFS\FireFS;
 use ElementaryFramework\FireFS\Watcher\FileSystemWatcher;
 use Illuminate\Support\ServiceProvider;
-use Tohidplus\Translation\Console\Commands\Translation;
+use KrepyshSpec\LangGenerator\Translation\Console\Commands\Translation;
 
 class TranslationServiceProvider extends ServiceProvider
 {
