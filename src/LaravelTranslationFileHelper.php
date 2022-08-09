@@ -39,6 +39,6 @@ class LaravelTranslationFileHelper implements TranslationFileHelper
      */
     public function destinationPath()
     {
-        return resource_path('js/VueTranslation');
+        return resource_path('js/translations');
     }
 }
