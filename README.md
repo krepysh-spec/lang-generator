@@ -1,11 +1,16 @@
-[![GitHub issues](https://img.shields.io/github/issues/KrepyshSpec\LangGenerator/laravel-vue-translation.svg)](https://github.com/KrepyshSpec\LangGenerator/laravel-vue-translation/issues)
-[![GitHub stars](https://img.shields.io/github/stars/KrepyshSpec\LangGenerator/laravel-vue-translation.svg)](https://github.com/KrepyshSpec\LangGenerator/laravel-vue-translation/stargazers)
-[![Total Downloads](https://img.shields.io/packagist/dt/KrepyshSpec\LangGenerator/laravel-vue-translation.svg)](https://packagist.org/packages/KrepyshSpec\LangGenerator/laravel-vue-translation)
-[![GitHub license](https://img.shields.io/github/license/KrepyshSpec\LangGenerator/laravel-vue-translation.svg)](https://github.com/KrepyshSpec\LangGenerator/mellat/blob/master/LICENSE.txt)
-# Laravel translation in VueJS
-This package helps you to have Laravel translation functionality in your client side applications specially in Vue js 
-### Get started
- install the package via composer
+# Laravel generator translations from php [array] to {json}
+
+[![Build Status](https://circleci.com/gh/krepysh-spec/lang-generator.svg?style=shield)](https://circleci.com/gh/krepysh-spec/lang-generator)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/krepysh-spec/lang-generator/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/krepysh-spec/lang-generator/?branch=main)
+[![Code Coverage](https://scrutinizer-ci.com/g/krepysh-spec/lang-generator/badges/coverage.png?b=main)](https://scrutinizer-ci.com/g/krepysh-spec/lang-generator/?branch=main)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/krepysh-spec/lang-generator/badges/code-intelligence.svg?b=main)](https://scrutinizer-ci.com/code-intelligence)
+[![Latest Stable Version](http://poser.pugx.org/krepysh-spec/lang-generator/v)](https://packagist.org/packages/krepysh-spec/lang-generator)
+[![Total Downloads](http://poser.pugx.org/krepysh-spec/lang-generator/downloads)](https://packagist.org/packages/krepysh-spec/lang-generator)
+[![Latest Unstable Version](http://poser.pugx.org/krepysh-spec/lang-generator/v/unstable)](https://packagist.org/packages/krepysh-spec/lang-generator)
+[![License](http://poser.pugx.org/krepysh-spec/lang-generator/license)](https://packagist.org/packages/krepysh-spec/lang-generator)
+[![PHP Version Require](http://poser.pugx.org/krepysh-spec/lang-generator/require/php)](https://packagist.org/packages/krepysh-spec/lang-generator)
+
+### Install
  ```bash
  composer require krepysh-spec/lang-generator
  ```
@@ -123,4 +128,11 @@ translate('validation.required',{
 });
 ```
 > **Notice:** if it could not find the value for the key you passed it will return the exact key
- 
+
+### Support
+
+For support, email evgeniymykhalichenko@gmail.com or telegram @krep1sh
+
+### License
+
+MIT
