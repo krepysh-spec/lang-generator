@@ -1,8 +1,8 @@
 <?php
 
-namespace KrepyshSpec\LangGenerator\Translation;
+namespace KrepyshSpec\LangGenerator;
 
-use KrepyshSpec\LangGenerator\Translation\Contract\TranslationFileHelper;
+use KrepyshSpec\LangGenerator\Contract\TranslationFileHelper;
 
 class LaravelVueTranslation
 

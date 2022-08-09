@@ -1,6 +1,6 @@
 <?php
 
-namespace KrepyshSpec\LangGenerator\Translation;
+namespace KrepyshSpec\LangGenerator;
 
 use Illuminate\Support\Facades\File;
 use KrepyshSpec\LangGenerator\Translation\Contract\TranslationFileHelper;

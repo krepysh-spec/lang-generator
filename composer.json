@@ -50,7 +50,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "KrepyshSpec\\LangGenerator\\Translation\\TranslationServiceProvider"
+                "KrepyshSpec\\LangGenerator\\TranslationServiceProvider"
             ]
         }
     }

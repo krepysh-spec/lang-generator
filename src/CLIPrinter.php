@@ -1,7 +1,7 @@
 <?php
 
 
-namespace KrepyshSpec\LangGenerator\Translation;
+namespace KrepyshSpec\LangGenerator;
 
 class CLIPrinter
 {

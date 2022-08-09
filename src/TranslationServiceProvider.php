@@ -5,7 +5,7 @@ namespace KrepyshSpec\LangGenerator\Translation;
 use ElementaryFramework\FireFS\FireFS;
 use ElementaryFramework\FireFS\Watcher\FileSystemWatcher;
 use Illuminate\Support\ServiceProvider;
-use KrepyshSpec\LangGenerator\Translation\Console\Commands\Translation;
+use KrepyshSpec\LangGenerator\Console\Commands\Translation;
 
 class TranslationServiceProvider extends ServiceProvider
 {

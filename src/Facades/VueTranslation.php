@@ -1,6 +1,6 @@
 <?php
 
-namespace KrepyshSpec\LangGenerator\Translation\Facades;
+namespace KrepyshSpec\LangGenerator\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,13 +1,13 @@
 <?php
 
 
-namespace KrepyshSpec\LangGenerator\Translation\FileWatcher;
+namespace KrepyshSpec\LangGenerator\FileWatcher;
 
 
 use ElementaryFramework\FireFS\Events\FileSystemEvent;
 use ElementaryFramework\FireFS\Listener\IFileSystemListener;
-use KrepyshSpec\LangGenerator\Translation\CLIPrinter;
-use KrepyshSpec\LangGenerator\Translation\Facades\VueTranslation;
+use KrepyshSpec\LangGenerator\CLIPrinter;
+use KrepyshSpec\LangGenerator\Facades\VueTranslation;
 
 class Listener implements IFileSystemListener
 {
