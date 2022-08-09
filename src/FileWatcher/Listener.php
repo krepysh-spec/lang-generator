@@ -1,8 +1,6 @@
 <?php
 
-
 namespace KrepyshSpec\LangGenerator\FileWatcher;
-
 
 use ElementaryFramework\FireFS\Events\FileSystemEvent;
 use ElementaryFramework\FireFS\Listener\IFileSystemListener;
@@ -11,7 +9,6 @@ use KrepyshSpec\LangGenerator\Facades\VueTranslation;
 
 class Listener implements IFileSystemListener
 {
-
     /**
      * Action called on any event.
      *
@@ -19,7 +16,7 @@ class Listener implements IFileSystemListener
      *
      * @return boolean true to propagate the event, false otherwise.
      */
-    function onAny(FileSystemEvent $event): bool
+    public function onAny(FileSystemEvent $event): bool
     {
         try {
             VueTranslation::compile();
@@ -38,7 +35,7 @@ class Listener implements IFileSystemListener
      *
      * @return void
      */
-    function onCreated(FileSystemEvent $event)
+    public function onCreated(FileSystemEvent $event)
     {
         // TODO: Implement onCreated() method.
     }
@@ -51,9 +48,8 @@ class Listener implements IFileSystemListener
      *
      * @return void
      */
-    function onModified(FileSystemEvent $event)
+    public function onModified(FileSystemEvent $event)
     {
-
     }
 
     /**
@@ -64,7 +60,7 @@ class Listener implements IFileSystemListener
      *
      * @return void
      */
-    function onDeleted(FileSystemEvent $event)
+    public function onDeleted(FileSystemEvent $event)
     {
         // TODO: Implement onDeleted() method.
     }

@@ -3,11 +3,10 @@
 namespace KrepyshSpec\LangGenerator;
 
 use Illuminate\Support\Facades\File;
-use KrepyshSpec\LangGenerator\Translation\Contract\TranslationFileHelper;
+use KrepyshSpec\LangGenerator\Contract\TranslationFileHelper;
 
 class LaravelTranslationFileHelper implements TranslationFileHelper
 {
-
     /**
      * @return \Symfony\Component\Finder\SplFileInfo[]
      */

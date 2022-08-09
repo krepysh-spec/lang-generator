@@ -4,9 +4,10 @@ namespace KrepyshSpec\LangGenerator\Console\Commands;
 
 use ElementaryFramework\FireFS\Watcher\FileSystemWatcher;
 use Illuminate\Console\Command;
-use function MongoDB\BSON\toJSON;
 use KrepyshSpec\LangGenerator\Facades\VueTranslation;
 use KrepyshSpec\LangGenerator\FileWatcher\Listener;
+
+use function MongoDB\BSON\toJSON;
 
 class Translation extends Command
 {

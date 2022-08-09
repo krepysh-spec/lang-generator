@@ -1,6 +1,6 @@
 <?php
 
-namespace KrepyshSpec\LangGenerator\Translation;
+namespace KrepyshSpec\LangGenerator;
 
 use ElementaryFramework\FireFS\FireFS;
 use ElementaryFramework\FireFS\Watcher\FileSystemWatcher;
@@ -32,5 +32,4 @@ class TranslationServiceProvider extends ServiceProvider
             return $watcher;
         });
     }
-
 }
